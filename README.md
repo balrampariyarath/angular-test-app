@@ -1,12 +1,18 @@
-# proj
+# Valuefy Test Project
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.16.0.
 
-## Build & development
+## Build and Run
 
-Run `grunt` for building and `grunt serve` for preview.
+```
+bower install
+npm install
+grunt serve
+```
 
-## Testing
+## Screenshots
 
-Running `grunt test` will run the unit tests with karma.
+![alt text](https://raw.githubusercontent.com/balrampariyarath/valuefy-test-app/master/screenshots/screen-2.png "First Page")
+
+![alt text](https://raw.githubusercontent.com/balrampariyarath/valuefy-test-app/master/screenshots/screen-1.png "Second Page")
