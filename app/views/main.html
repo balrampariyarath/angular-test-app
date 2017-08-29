@@ -1,0 +1,17 @@
+
+
+<div class="container item-cards">
+  <md-content layout="row" layout-xs="column" layout-align="center center" layout-align-sm layout-wrap>
+    <md-card ng-repeat="data in data" flex="25" flex-sm="100" flex-xs="100">
+      <a ng-href="/#!/{{data.id}}">
+        <md-card-title >
+        <h2>{{data.Scheme}}</h2>
+      </md-card-title>
+      <md-card-title-text>
+        <h4>Managers: {{data["Fund Manager Name"]}}</h4>
+      </md-card-title-text>
+      </a>
+    </md-card>
+
+  </md-content>
+</div>

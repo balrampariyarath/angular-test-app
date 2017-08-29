@@ -1,0 +1,45 @@
+.tabledata{
+  width: 50%;
+  margin: 0 auto;
+}
+.tabledata th{
+  text-align: center;
+}
+.table_card{
+  margin: 0 auto;
+  padding-top: 120px;
+  
+}
+@media (max-width: 700px) {
+  .table_card{
+    width: 100%;
+  }
+
+}
+md-button{
+  text-align: left;
+}
+
+.table_card h2 {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.table_card h3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.table th{
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 400px;
+}
+
+.table td{
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 300px;
+}

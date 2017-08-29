@@ -1,0 +1,47 @@
+<!--<a ng-href="/#/"><md-button class="md-raised" >Back</md-button></a>-->
+<md-content layout-padding class="table_card container">
+  <md-card>
+    <h2>{{data.Scheme}}</h2>
+    <h3>Managers: {{data["Fund Manager Name"]}}</h3>
+    <h3>AUM(Crores) Size of the fund: {{data["AUM(Crores) Size of the fund"]}}</h3>
+    <br>
+    <table class="table tabledata table-striped">
+      <thead>
+        <tr>
+          <th>Timeline</th>
+          <th>Returns</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>3 Months</td>
+          <td>{{data["Return(3m)"]}}</td>
+        </tr>
+      <tr>
+        <td>6 Months</td>
+        <td>{{data["Return(6m)"]}}</td>
+      </tr>
+      <tr>
+        <td>1 Year</td>
+        <td>{{data["Return(1y)"]}}</td>
+      </tr>
+      <tr>
+        <td>2 Year</td>
+        <td>{{data["Return(2y)"]}}</td>
+      </tr>
+      <tr>
+        <td>3 Year</td>
+        <td>{{data["Return(3y)"]}}</td>
+      </tr>
+      <tr>
+        <td>5 Year</td>
+        <td>{{data["Return(5y)"]}}</td>
+      </tr>
+      </tbody>
+    </table>
+    <br>
+    <div class="text-center">
+      <md-button ng-href="/">Back to Main Menu</md-button>
+    </div>
+  </md-card>
+</md-content>
